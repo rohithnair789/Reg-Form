@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" />
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" />
+              </div>
+
+              <div class="form-group">
+                <label for="gender" class="radio">Gender</label>
+                <div>
+                    <label for="male"><input type="radio" class="form-control" name="gender" id="male">Male</label>
+                    <label for="female"><input type="radio" class="form-control" name="gender" id="female" >Female</label>
+                    <label for="others"><input type="radio" class="form-control" name="gender" id="others" >Others</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="dob">DOB</label>
+                <input type="date" class="form-control" id="dob" name="dob"/>
+              </div>
+
+              <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" />
+              </div>
+
+              <div class="form-group">
+                <label for="address1">Address 1</label>
+                <input type="text" class="form-control" id="address1"  name="address1" />
+              </div>
+
+              <div class="form-group">
+                <label for="address2">Address 2</label>
+                <input type="text" class="form-control" id="address2" name="address2" />
+              </div>
+
+              <!-- <div class="form-group">
+                <button type="submit" class="form-control">Submit</button>
+              </div> -->
+              <input type="submit" class="btn btn-primary">
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Rohith Nair</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
